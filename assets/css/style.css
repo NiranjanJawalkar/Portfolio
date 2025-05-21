@@ -321,13 +321,14 @@ main {
   transition: var(--transition-2);
 }
 
-.sidebar.active { max-height: 405px; }
+.sidebar.active { max-height: 430px; }
 
 .sidebar-info {
   position: relative;
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  gap: 20px;
 }
 
 /* .avatar-box {
@@ -344,7 +345,7 @@ main {
 .avatar-box {
   /* background: var(--bg-gradient-onyx); */
   /* height: 175px; */
-  width: 175px; 
+  padding-left: 10px;
   border-radius: 200px;
   display: flex;
   justify-content: center;
@@ -361,14 +362,17 @@ main {
   color: var(--white-2);
   font-weight: var(--fw-500);
   font-size: 1.2rem;
-  letter-spacing: -0.25px;
+  letter-spacing: 2px;
   margin-bottom: 10px;
   margin-top: 5px;
 }
 
 .info-content .title {
+  padding: 4px;
+  letter-spacing: 1px;
   color: var(--white-1);
   background: var(--onyx);
+  font-weight: 800;
   font-size: 0.8rem;
   font-weight: var(--fw-300);
   width: max-content;
