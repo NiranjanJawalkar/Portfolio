@@ -38,7 +38,7 @@
       - #SIDEBAR
     -->
 
-    <aside class="sidebar" data-sidebar>
+    <aside class="sidebar active" data-sidebar>
 
       <div class="sidebar-info">
 
@@ -52,11 +52,11 @@
           <p class="title">UI/UX Designer</p>
         </div>
 
-        <button class="info_more-btn" data-sidebar-btn>
+        <!-- <button class="info_more-btn" data-sidebar-btn>
           <span>Show Contacts</span>
 
           <ion-icon name="chevron-down"></ion-icon>
-        </button>
+        </button> -->
 
       </div>
 
@@ -217,10 +217,11 @@
             I’m a UI/UX Designer based in Pune, creating intuitive and user-friendly digital experiences. I focus on
             clean, engaging designs that solve problems and make technology easy to use.
           </p>
-
           <p>
-            I’m a UI/UX Designer based in Pune, creating intuitive and user-friendly digital experiences. I focus on
-            clean, engaging designs that solve problems and make technology easy to use.
+            I create intuitive and user-friendly digital experiences with a focus on clean, engaging design that solves
+            real problems and makes technology accessible. I bring hands-on experience in M-commerce, logistics
+            management, and retail web applications with integrated POS systems, delivering solutions that enhance
+            usability and streamline business operations.
           </p>
         </section>
 
@@ -548,8 +549,19 @@
       <article class="resume" data-page="resume">
 
         <header>
-          <h2 class="h2 article-title">Resume</h2>
+          <div class="resume-header"
+            style="display: flex; justify-content: flex-start; align-items: center; flex-wrap: wrap; gap: 115px;">
+            <h2 class="h2 article-title" style="margin: 0;">Resume</h2>
+            <a href="your-resume-file.pdf" target="_blank" class="download-btn">
+              <button class="download-button">
+                <span class="button-text">Download Resume</span>
+                <span class="button-icon" style="display: none;">⬇️</span>
+              </button>
+            </a>
+          </div>
         </header>
+
+
 
         <section class="timeline">
 
@@ -795,7 +807,7 @@
           </ul>
 
 
-  
+
           <div class="filter-select-box">
 
             <button class="filter-select" data-select>
@@ -817,7 +829,7 @@
               <li class="select-item">
                 <button data-select-item>Website Design</button>
               </li>
-<!-- 
+              <!-- 
               <li class="select-item">
                 <button data-select-item>Applications</button>
               </li> -->
@@ -833,8 +845,7 @@
           <ul class="project-list">
 
             <li class="project-item  active" data-filter-item data-category="mobile design">
-              <a href="https://www.behance.net/gallery/226336829/Delivery-Partner-App"
-              target="_blank">
+              <a href="https://www.behance.net/gallery/226336829/Delivery-Partner-App" target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
@@ -887,7 +898,7 @@
               </a>
             </li> -->
 
-<!-- 
+            <!-- 
             <li class="project-item  active" data-filter-item data-category="applications">
               <a href="#">
 
@@ -924,7 +935,7 @@
               </a>
             </li>
 
-             <li class="project-item  active" data-filter-item data-category="website design">
+            <li class="project-item  active" data-filter-item data-category="website design">
               <a href="https://velocitt.in/" target="_blank">
 
                 <figure class="project-img">
@@ -942,7 +953,7 @@
               </a>
             </li>
 
-              <li class="project-item  active" data-filter-item data-category="website design">
+            <li class="project-item  active" data-filter-item data-category="website design">
               <a href="https://www.behance.net/gallery/226397299/VRetail-Web-Design" target="_blank">
 
                 <figure class="project-img">
@@ -1079,7 +1090,7 @@
           <h3 class="h3 form-title">
             Let's Connect and Create Something Amazing! </h3>
 
-          <form action="#" class="form" data-form>
+          <!-- <form action="#" class="form" data-form>
 
             <div class="input-wrapper">
               <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
@@ -1094,8 +1105,41 @@
               <span>Send Message</span>
             </button>
 
-          </form>
+          </form> -->
+          <div class="sidebar-info_more">
 
+            <div class="separator"></div>
+
+            <ul class="contacts-list">
+
+              <li class="contact-item">
+
+                <div class="icon-box">
+                  <ion-icon name="mail-outline"></ion-icon>
+                </div>
+
+                <div class="contact-info">
+                  <p class="contact-title">Email</p>
+
+                  <a href="mailto:niranjanjawalkar@gmail.com" class="contact-link">niranjanjawalkar@gmail.com</a>
+                </div>
+
+              </li>
+
+              <li class="contact-item">
+
+                <div class="icon-box">
+                  <ion-icon name="phone-portrait-outline"></ion-icon>
+                </div>
+
+                <div class="contact-info">
+                  <p class="contact-title">Phone</p>
+
+                  <a href="tel:+91 8956090088" class="contact-link">+91 8956090088</a>
+                </div>
+
+              </li>
+          </div>
         </section>
 
       </article>
